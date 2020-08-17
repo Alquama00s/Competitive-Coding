@@ -1,0 +1,10 @@
+CHEFSTR1-easiest-AC
+CRDGAME-easier-AC
+ADAKING-easy-AC
+PTMSSNG-medium
+CHFNSWPS-medium
+DRCHEF-mediumhard
+LCMCONST-hard
+DRGNDEN-harder
+EXPREP-hardest
+DYNHUL-harder

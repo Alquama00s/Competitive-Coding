@@ -1,0 +1,9 @@
+PRICEON-easy-AC
+XYSTR-easy-AC
+CHFICRM-easy-AC
+EOEO-medium-Partial correct
+EVENM-hard
+COVDSMPL-hard crazy
+TTUPLE-medium-WA
+CONTAIN-hard
+GUESSG-hard crazy

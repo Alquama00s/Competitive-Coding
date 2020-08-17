@@ -1,0 +1,9 @@
+CHEFWARS-easiest-AC
+LINCHESS-easy-AC
+CRDGAME3-easy-AC
+SKMP-medium-AC
+CHEFWED-medium-20%
+SUBSFREQ-medium
+CHEFCOMP-medium
+ACCBIP-hard
+ANTS-hard
