@@ -1,0 +1,10 @@
+tree2-easy-AC
+adamat-mid-AC
+covid19b-mid-AC
+chfnswap-hard-AC
+find-xor-hard
+crdgame2-v.hard-5
+eqdiv-mid
+last 3 questions is unrated will be rated either
+after solving the above or on 8.sep
+#3222
