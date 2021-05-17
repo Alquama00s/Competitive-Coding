@@ -2,6 +2,7 @@
 This contains all the solutions to questions encountered during Codechef contest
 
 ## Navigations
+1. [May-21](./21-5-maylong)
 1. [April-21](./21-4-aprlong)
 1. [February-21](./21-2-feblong)
 1. [January-21](./21-1-janlong)
