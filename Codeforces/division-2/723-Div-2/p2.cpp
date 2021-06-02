@@ -1,36 +1,27 @@
-//incomplete
 #include <bits/stdc++.h>
 
 #include <iostream>
-#include <string>
 using namespace std;
 int main() {
-    int t, x, beg, ones, temp, l;
-    // string o ="1";
-    // stringstream a;
+    int t, x, ans;
     cin >> t;
     while (t-- > 0) {
         cin >> x;
-        while (x > 11) {
-            l = ceil(log10(x));
-            beg = x / pow(10, l - 1);
-
-            ones = 11;
-            for (int i = 2; i < l; i++) {
-                ones = ones * 10 + 1;
-            }
-
-            if (beg * ones <= x) {
-                x -= beg * ones;
-            } else {
-                x -= (beg - 1) * ones;
-            }
-            //cout << x << "--\n";
-        }
-        if (x == 0) {
-            cout << "YES\n";
+        if (x > 1099) {
+            cout << "yes\n";
         } else {
-            cout << "NO\n";
+            ans = 0;
+            for (int i = 0; i <= 9; i++) {
+                for (int j = 0; j <= 181; j++) {
+                    if (x == i * 111 + j * 11) {
+                        ans=1;
+                        cout << "yes\n";
+                        break;
+                    }
+                }
+                if (ans != 0) break;
+            }
+            if (ans == 0) cout << "no\n";
         }
     }
     return 0;
