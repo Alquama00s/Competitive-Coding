@@ -4,5 +4,5 @@ This contains all the solutions to questions encountered during Codeforces conte
 
 ## Navigations
 
-1. [round-722](./722-Div-2)
-1. [round-723](./723-Div-2)
+1. [round-722](./722-Div-2) |  [link to questions](https://codeforces.com/contest/1529)
+1. [round-723](./723-Div-2) |  [link to questions](https://codeforces.com/contest/1526)
