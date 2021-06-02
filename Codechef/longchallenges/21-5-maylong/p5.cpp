@@ -1,59 +1,65 @@
-#include <algorithm>
-#include <iostream>
+#include <bits/stdc++.h>
+
 #include <vector>
+
+//#include "debug.h"
 #define ll long long
 using namespace std;
+vector<int> cf(int n) {
+    vector<int> ans;
+    for (int i = 1; i * i < n; i++) {
+        if (n % i == 0) {
+            ans.push_back(i);
+        }
+    }
+    for (int i = (int)sqrt(n); i >= 1; i--) {
+        if (n % i == 0) {
+            ans.push_back(n / i);
+        }
+    }
+    return ans;
+}
+int Binary(vector<int> data, int key) {
+    int s = 0, e = data.size() - 1,m;
+    while (true) {
+        m = (s + e) / 2;
+        if (e == s + 1||e==s) {
+            if (data[e] < key)
+                return e+1;
+            if(data[e]==key)
+                return e;
+            if(data[s]==key)
+                return s;
+            return s+1;
+        }
+        if (data[m] > key) {
+            e=m;
+        } else if (data[m] < key) {
+            s=m;
+        } else {
+            return m;
+        }
+    }
+}
 int main() {
-    int t, n, m, fact, prog, wt;
-    vector<int> data;
-    ll ans;
+    int t, n, m, ans;
     cin >> t;
+    vector<vector<int>> data;
     while (t-- > 0) {
-        /* code */
         cin >> n >> m;
-        data = vector<int>(min(n, m), 0);
-        ans = n - 1;  // pairs with one
-        //cout<<ans<<"-\n";
-        fact = 0;
-        for (int i = 0; i < min(n, m); i++) {
-            data[i] = m % (i + 1);
+        data.clear();
+        ans = 0;
+        for (int i = 1; i <= m; i++) {
+            data.push_back(cf(i));
         }
-        for (int i = data.size()-1; i >1; i--) {
-            for (int j = i-1; j >0; j--) {
-                if (data[i]%(j+1) == data[j]) ans++;
-            }
+        for (int i = 1; i <= min(n,m); i++) {
+            //cout<<Binary(data[(m-m%i)-1],i)<<"\n";
+            ans+=Binary(data[(m-m%i)-1],i);
         }
-
-         //cout<<ans<<"-\n";
-        /*
-        for (int i = 2; i <= min(n, m); i++) {
-
-            if (m % i == 0) fact++;
+        if(n>m){
+            ans+=((n-1)*n-(m-1)*m)/2;
         }
-        ans += (ll)fact * (fact - 1) / 2;  // pairs of two factors
-        // cout<<ans<<"-\n";
-        // pairs of prog of small no.excluding factors
-        for (int i = 2; i < min(n + 1, m); i++) {
-            fact = 0;
-            prog = 0;
-            if (m % i == 0)
-                wt = 0;
-            else
-                wt = 1;
-            for (int j = 2; i * j < min(n + 1, m); j++) {
-                prog++;
-                if (m % (i * j) == 0) fact++;
-            }
-            // cout<<prog<<"p\n"<<fact<<"f\n";
-            ans += (ll)prog - fact * wt;
-        }
-        */
-        // cout<<ans<<"-\n";
-        if (n > m) {
-            ans += (ll)(n - m) * (n - m - 1) / 2;  // pairs of big no.
-            ans += (ll)(m - 1) * (n - m);          // pair of small and big no.
-        }
-        cout << ans << "\n";
+        cout<<ans<<"\n";
     }
 
     return 0;
