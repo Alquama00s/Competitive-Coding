@@ -1,3 +1,4 @@
+[![Badge](https://cp-logo.vercel.app/codechef/Alquama00s?logo=true)](https://www.codechef.com/users/Alquama00s)
 # Competitive Coading
 
 This contains all the solutions to questions encountered during contest or randomly solved questions
@@ -9,6 +10,12 @@ This contains all the solutions to questions encountered during contest or rando
 ## Navigations
 
 1. [Codechef](./Codechef)
+    - [Cook off](./Codechef/codechefCookOff)
+    - [Lunch time](./Codechef/lunchtime)
+    - [Long challenges](./Codechef/longchallenges)
 1. [Codeforces](./Codeforces)
-1. [Random problems](./Random-Questions)
+    - [Division 2](./Codeforces/division-2)
+    - [Division 3](./Codeforces/division-3)
 1. [Atcoader](./atcoader)
+1. [Random problems](./Random-Questions)
+

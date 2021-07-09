@@ -1,6 +1,8 @@
 # Competitive Coading
 
-This contains all the solutions to questions encountered during Codechef contest
+This contains all the solutions to questions encountered during Codechef long challenges
+
+Long challenges are discontinued
 
 ## Navigations
 
