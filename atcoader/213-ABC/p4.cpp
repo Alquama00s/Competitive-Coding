@@ -1,4 +1,4 @@
-//incomplete
+// incomplete
 
 #include <bits/stdc++.h>
 
@@ -8,7 +8,7 @@ int main() {
     int n, t1, t2;
     cin >> n;
     vector<vector<int>> al(n, vector<int>());
-    for (int i = 0; i < n-1; i++) {
+    for (int i = 0; i < n - 1; i++) {
         cin >> t1 >> t2;
         al[t1 - 1].push_back(t2 - 1);
         al[t2 - 1].push_back(t1 - 1);
@@ -17,25 +17,31 @@ int main() {
         sort(al[i].begin(), al[i].end(), greater<int>());
     }
 
-    stack<int> city;
+    stack<int> city, parent;
     vector<int> visited(n, false);
-    city.push(0);
-    int temp;
-    while (!city.empty()) {
-        temp = city.top();
-        city.pop();
-        cout << temp + 1 << " ";
-        if (!visited[temp]) {
-            visited[temp] = true;
-            if (al[temp].size() > 0) {
-                for (int i = 0; i < al[temp].size(); i++) {
-                    city.push(al[temp][i]);
-                    city.push(temp);
-                }
-                city.pop();
+    int ctemp=0, ptemp=0;
+    parent.push(0);
+    do {
+        if (ctemp == ptemp) {
+            ctemp = parent.top();
+              
+        } else {
+            parent.push(ptemp);
+        }
+        cout << ctemp + 1 << " ";
+        ptemp = ctemp;
+
+        visited[ctemp] = true;
+
+        for (int i = 0; i < al[ctemp].size(); i++) {
+            if (!visited[al[ctemp][i]]) {
+                ctemp = al[ctemp][i];
+                break;
             }
         }
-    }
-cout<<"\n";
+
+        
+    } while (!parent.empty());
+    cout << "\n";
     return 0;
 }

@@ -10,3 +10,5 @@ This contains all the solutions to questions solved randomly.
 1. [Power-sum](./Power-sum.cpp)
     -[Problem statement](https://www.hackerrank.com/challenges/the-power-sum/problem)
 
+1. [Two sum](./two-sum.java)
+    -[Problem Statement](https://leetcode.com/problems/two-sum/)
