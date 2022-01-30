@@ -1,6 +1,8 @@
+<!--
 [![Badge](https://cp-logo.vercel.app/codechef/Alquama00s?logo=true)](https://www.codechef.com/users/Alquama00s)
 [![Badge](https://cp-logo.vercel.app/atcoder/Alquama00s?logo=true)](https://atcoder.jp/users/alquama00s)
 [![Badge](https://cp-logo.vercel.app/codeforces/Alquama00s?logo=true)](https://codeforces.com/profile/Alquama00s)
+--->
 # Competitive Coading
 
 This contains all the solutions to questions encountered during contest or randomly solved questions
