@@ -33,3 +33,35 @@ This contains all the solutions to questions solved randomly.
 
 1. [bit++](./bit++/Solution.java)
 	-[Problem-statement](https://codeforces.com/problemset/problem/282/A)
+
+1. [beautiful-matrix](./beautiful-matrix/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/263/A)
+
+
+
+1. [longest-valid-paren](./longest-valid-paren/Solution.java)
+	-[Problem-statement](https://leetcode.com/problems/longest-valid-parentheses/)
+
+1. [petya-and-string](./petya-and-string/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/112/A)
+
+1. [string-task](./string-task/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/118/A)
+
+1. [help-math](./help-math/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/339/A)
+
+1. [word-cap](./word-cap/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/281/A)
+
+1. [boy-girl](./boy-girl/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/236/A)
+
+1. [linear-keyboard](./linear-keyboard/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/1607/A)
+
+1. [yet-another-palindrome](./yet-another-palindrome/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/1324/B)
+
+1. [stones-on-the-table](./stones-on-the-table/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/266/A)
