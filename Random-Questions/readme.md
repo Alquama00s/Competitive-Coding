@@ -65,3 +65,27 @@ This contains all the solutions to questions solved randomly.
 
 1. [stones-on-the-table](./stones-on-the-table/Solution.java)
 	-[Problem-statement](https://codeforces.com/problemset/problem/266/A)
+
+1. [bear-and-big-bro](./bear-and-big-bro/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/791/A)
+
+1. [football](./football/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/96/A)
+
+1. [young-physicist](./young-physicist/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/69/A)
+
+1. [soldier-and-bananas](./soldier-and-bananas/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/546/A)
+
+1. [elephant](./elephant/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/617/A)
+
+1. [word](./word/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/59/A)
+
+1. [wrong-subtraction](./wrong-subtraction/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/977/A)
+
+1. [tram](./tram/Solution.java)
+	-[Problem-statement](https://codeforces.com/problemset/problem/116/A)
